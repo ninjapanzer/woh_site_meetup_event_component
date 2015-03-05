@@ -20,7 +20,6 @@ module.exports = {
     ],
     loaders: [
       { test: /\.coffee$/, loader: "coffee-jsx-loader" }
-      //{ test: /\.coffee$/, loader: "coffee" }
     ]
   },
   plugins: [

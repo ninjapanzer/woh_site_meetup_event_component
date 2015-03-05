@@ -6,7 +6,6 @@ var resolveBowerPath = function(componentPath) {
 };
 module.exports = {
   entry: './src/app.coffee',
-  devtool: "source-map",
   target: 'node',
   output: {
     path: './build',
@@ -22,7 +21,6 @@ module.exports = {
     ],
     loaders: [
       { test: /\.coffee$/, loader: "coffee-jsx-loader" }
-      //{ test: /\.coffee$/, loader: "coffee" }
     ]
   },
   plugins: [
